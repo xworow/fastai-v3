@@ -9,10 +9,16 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1hE8eUcRSBw2LrfjYfKcocNEYiWoMjtn9?alt=media&key=AIzaSyBmePAtHuiU_XtYfd09-X2uhxfQIHlBsjo'
+export_file_name = 'bamboo_1.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Fargesia robusta',
+           'Pleioblastus viridistriatus',
+           'Sasa Veitcha',
+           'Pleioblastus pumilis',
+           'Fargesia rufa',
+           'Phyllostachys aureosulcata',
+           'Fargesia Jiuzhaigou']
 path = Path(__file__).parent
 
 app = Starlette()
