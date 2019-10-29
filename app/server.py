@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1hE8eUcRSBw2LrfjYfKcocNEYiWoMjtn9?alt=media&key=AIzaSyBmePAtHuiU_XtYfd09-X2uhxfQIHlBsjo'
-export_file_name = 'bamboo_1.pkl'
+export_file_url = 'https://drive.google.com/open?id=1-4CG5HiwVWdVleVdvzu4Lhvsx2D5-TGh'
+export_file_name = 'bamboo_2_res34.pkl'
 
 classes = ['Fargesia robusta',
            'Pleioblastus viridistriatus',
